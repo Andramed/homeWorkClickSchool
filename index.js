@@ -19,7 +19,7 @@ function getNextTarget(page){
         console.log([null, 0]);
     }
 }
-// getNextTarget('<a href="http://www.xkcd.com">');
+getNextTarget('<a href="http://www.xkcd.com">');
 
 // console.log(getNextTarget("some string")) => [null, 0]
 // console.log(getNextTarget('<div class=" float-left">')) => [null, 0]
@@ -74,7 +74,7 @@ function printAllLinks(text){
     }
    }
 }
-// printAllLinks(textPage);
+printAllLinks(textPage);
 
 // printAllLinks(page) 
 // prints
